@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Yell</string>
+
+    <string name="gcm_sender_id">833136285464</string>
+    <string name="gcm_sender_address">833136285464@gcm.googleapis.com</string>
+    <string name="mixpanel_token">9bd6b7353e96c958916fc45a659d2cac</string>
+</resources>

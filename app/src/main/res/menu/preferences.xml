@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Burada actionBar da Gözükmesini istediğimiz itemleri ekliyoruz
+*    Her activity için farklı oluşturabiliriz
+* veya burda oluşturduğumuz menüyü her activity de kullanabiliriz
+*    programsal olarak activity içinden icon ekleyebilir çıkarabiliriz
+*
+*
+*    android:showAsAction="always" ->her durumda action bar da göstermek için
+*    android:showAsAction="never"  ->action bar da değil yandaki overflow menüde göstermek için
+*    android:showAsAction="ifroom"  ->action bar da yer varsa gösterir yoksa overflow menüde gösterir
+ -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_save"
+        android:icon="@drawable/ic_save_24dp"
+        android:title="Save"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/ic_cancel_24dp"
+        android:title="Logout"
+        app:showAsAction="always"/>
+
+
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <include android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="499dp"
+        android:layout_weight="1"
+        android:id="@+id/lvMessaging"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="316dp"
+            android:layout_height="53dp"
+            android:id="@+id/etMessage"
+            />
+
+        <Button android:id="@+id/btSend"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:background="@drawable/ic_send_24dp"
+            android:text=""/>
+
+    </LinearLayout>
+
+</LinearLayout>
